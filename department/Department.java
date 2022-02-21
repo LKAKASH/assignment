@@ -1,19 +1,10 @@
 package Org.department;
 
-import Org.student.Student;
 
-public class Department extends Student {
-	
-	public void department() {
-		System.out.println("Department");
+
+public class Department {
+	public void deptName()
+	{
+		System.out.println("Department Name is : Information Technology");
 	}
-
-	public static void main(String[] args) {
-		
-		Department department = new Department();
-		department.department();
-		
-
-	}
-
 }

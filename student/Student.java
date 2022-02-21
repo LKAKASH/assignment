@@ -1,28 +1,26 @@
 package Org.student;
 
-public class Student  {
-	
+import Org.college.College;
+
+public class Student extends College{
 	public void studentName() {
-		System.out.println("student name");
-			
+		System.out.println("Student Name is: Akash R");
 	}
 	public void studentDept() {
-		System.out.println("student dept");
-		
+		System.out.println("Student Department is : ECE");
 	}
 	public void studentId() {
-		System.out.println("student id");
+		System.out.println("Student Id is: B17ec301");
 	}
 	
-
 	public static void main(String[] args) {
-		
-		Student id = new Student();
-		id.studentName();
-		id.studentDept();
-		id.studentId();
-		
-
+		Student get=new Student();
+		get.collegeName();
+		get.collegeCode();
+		get.collegeRank();
+		get.deptName();
+		get.studentName();
+		get.studentId();
+		get.studentDept();
 	}
-
 }
