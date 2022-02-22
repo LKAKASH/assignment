@@ -28,7 +28,7 @@ public class DropDown {
 		Select value=new Select(DropDown2);
 		value.selectByValue("3");
 		
-		driver.close();
+		
 		
 		System.out.println("Test case : pass");
 
